@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity"
+    android:background="@drawable/splash"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="𝓦𝓮𝓵𝓬𝓸𝓶𝓮"
+        android:textColor="#ff0000"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:loader_animDur="90"
+        app:loader_bigCircleRadius="25dp"
+        app:loader_circleRadius="7dp"
+        app:loader_defaultColor="#0000FF"
+        app:loader_firstShadowColor="#00FF00"
+        app:loader_secondShadowColor="#FF9800"
+        app:loader_selectedColor="#FF0000"
+        app:loader_showRunningShadow="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
